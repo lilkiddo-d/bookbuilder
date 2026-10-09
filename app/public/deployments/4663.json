@@ -1,0 +1,28 @@
+{
+  "blockNumber": 26154658,
+  "chainId": 4663,
+  "contracts": {
+    "BatchAuctionImpl": "0xE87A9187629a2BD1907fd743d5df473FbfE3fbB8",
+    "ComplianceRegistry": "0x55273Db20Afb95F01D262ee5fC3Fb6D1e1cA0e86",
+    "DeliveryVesting": "0x18eE3DA555C01684db78f0C7Ef8dc6F588D10972",
+    "DutchAuctionImpl": "0x381ab1fA85aA3623d636E27EC4cdF1416950DC7B",
+    "FeeCollector": "0x348534c624111054dAabe09bb0718218cF064BE2",
+    "FixedPriceOfferingImpl": "0x26128D94E2AE39658f7CBe91ff1c31E3189d03a3",
+    "IssuerRegistry": "0xd021bcC91775631022911499737F51A90d8119f9",
+    "OfferingEscrowImpl": "0x2D68aB200663eBBD10a535C90241203dcBDEDCE6",
+    "OfferingFactory": "0xB0D441f3e6EaDAFa21367665D4B2B98a1E6cd607",
+    "OracleAdapter": "0x244516615d368f98431adDef4511F912c017363B",
+    "ProjectTokenHooks": "0xDd6AA66537fb88a523e7E221154e5A07ffe73f09",
+    "Timelock": "0x4d4710d4D2bEABaC59aB28C1CF65525d44cF563a"
+  },
+  "deployer": "0xa640DD40Cf5B69fB3c85eEdE4fBd758e1a9C45E7",
+  "govProposer": "0xa640DD40Cf5B69fB3c85eEdE4fBd758e1a9C45E7",
+  "guardian": "0xa640DD40Cf5B69fB3c85eEdE4fBd758e1a9C45E7",
+  "network": "robinhood-mainnet",
+  "paymentTokens": {
+    "USDG": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+  },
+  "timelockDelay": 172800,
+  "treasury": "0x4d4710d4D2bEABaC59aB28C1CF65525d44cF563a",
+  "deployBlock": 84142011
+}
