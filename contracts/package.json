@@ -1,0 +1,15 @@
+{
+  "name": "@bookbuilder/contracts",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "coverage": "forge coverage --report summary --no-match-coverage \"(test|script|mocks)\"",
+    "slither": "slither . --config-file slither.config.json",
+    "abis": "forge build && node tools/export-abis.mjs"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0"
+  }
+}

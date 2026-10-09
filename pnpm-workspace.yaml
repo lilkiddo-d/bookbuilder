@@ -1,0 +1,12 @@
+packages:
+  - contracts
+  - app
+  - scripts
+  - config
+
+# Optional native add-ons pulled in by wallet connectors; JS fallbacks are used, so skip their build scripts.
+allowBuilds:
+  bufferutil: false
+  keccak: false
+  utf-8-validate: false
+  esbuild: true
